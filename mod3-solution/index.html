@@ -6,16 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>JHU Module 3 Solution</title>
+	<script src="jquer-1.11.3.min.js"></script>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 </head>
 <body>
 	<header>
 		<!-- Navigation bar at the top of the page -->
 		<nav class="navbar navbar-default">
-			<div id="header-nav" class="container">
+			<div id="header-nav" class="container-fluid">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="#">
 						<h1 id="navbar-brand-h1">Food LLC</h1>
@@ -28,14 +30,17 @@
         						<span class="icon-bar"></span>
         					</button>
         				</div> <!--end div for navbar mobile menu icon -->
-        				<!-- mobile menu code -->
-        				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        				<!------------- mobile menu code ------------->
+        			<div class="visible-xs">
+        				<div id="collapsable-nav" class="collapse navbar-collapse">
         					<ul id="nav-list" class="nav navbar-nav navbar-right">
-        						<li><a href="#">Starters</a></li>
-        						<li><a href="#">Mains</a></li>
-        						<li><a href="#">Desserts</a></li>
+        						<li><a href="#"><span>Starters</span></a></li>
+        						<li><a href="#"><span>Mains</span></a></li>
+        						<li><a href="#"><span>Desserts</span></a></li>
         					</ul>
         				</div> <!-- end of collapsable div menu -->	
+        			</div> <!-- end div for visible-xs class -->
 				</div> <!-- end div for navbar-header -->
 			</div><!-- end div for header-nav class="container" -->
 		</nav>
@@ -45,7 +50,7 @@
 	<p class="text-center">Our Menu</p>
 	<!-- End of menu title -->
 	<!-- Start of jumbotron -->
-	<div id="main-content" class="container">
+	<div id="main-content" class="container-fluid">
 
 	</div><!-- end of jumbotron main content -->
 

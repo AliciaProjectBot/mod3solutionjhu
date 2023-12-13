@@ -7,18 +7,18 @@ body {
 	background: #fcf4d9;
 	font-family: "EB Garamond" sans-serif;
 }
-.container {
+.container-fluid {
 	background: #00aaa0;
 	border-radius: 0;
 	border:0;
+	height:100px;
 }
 #navbar-brand-h1 {
 	font-size: 1.8em;
 	color: #fcf4d9;
 	text-transform: uppercase;
 	margin-left: 20px;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding-bottom:10px;
 }
 .navbar-brand {
 	text-decoration: none;
@@ -50,4 +50,21 @@ body {
 	#navbar-brand-h1 {
 		font-size: 2.2em;
 	}
+}
+#nav-list {
+	margin-top: 10px;
+	padding-bottom:10px;
+	line-height: 1.4;
+}
+#nav-list a {
+	color: #ffffff;
+	text-align: center;
+	font-size:1.8em;
+	text-decoration: none;
+}
+#nav-list a:hover {
+	background:#8ed2c9;
+}
+#icon-bar {
+	color:#ffffff;
 }
